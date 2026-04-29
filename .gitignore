@@ -1,0 +1,22 @@
+# Secrets and credentials
+credentials/
+.env
+token.json
+
+# Personal config (each user fills these in from the .example templates)
+config/cv.md
+config/cv_summary.md
+config/rubric.md
+config/scoring_prompt.md
+config/JP_CV.md
+config/*_CV.md
+
+# Runtime artifacts
+logs/
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.claude/

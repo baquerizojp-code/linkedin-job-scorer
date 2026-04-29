@@ -1,0 +1,10 @@
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+google-genai
+beautifulsoup4
+requests
+python-dotenv
+playwright
+pydantic
