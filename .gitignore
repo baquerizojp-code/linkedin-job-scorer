@@ -19,4 +19,7 @@ __pycache__/
 
 # OS / editor
 .DS_Store
-.claude/
+.claude/settings.local.json
+.claude/launch.json
+.claude/worktrees/
+.claude/.DS_Store
