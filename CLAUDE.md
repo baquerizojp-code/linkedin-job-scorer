@@ -62,3 +62,7 @@ Start by reading `scripts/run_scorer.py` to understand the pipeline, then read t
 - DO NOT modify `.env`, `credentials/`, or `.venv/`
 - DO modify `config/*.md` files when iterating on CV, rubric, or scoring prompt
 - DO NOT commit personal CV content or real Sheet IDs — gitignore covers this by default
+
+## Model selection
+
+Global doctrine §12. `sonnet` for iterating on `config/*.md`; `opus` for debugging and for owner-approved changes in `scripts/`. `MODEL_NAME` in `scripts/gemini_scorer.py` is the product's Gemini model and is not governed by this rule.
